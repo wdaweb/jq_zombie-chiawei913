@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="./js/jquery.circle-progress.js"></script>
+  <title>壽司遊戲</title>
+</head>
+<body>
+  
+  <div id="game">
+    <div id="clock">
+      <div class="progress" style="left:24.5px; top:36.5px; position: absolute; transform:scaleX(-1);"></div>
+    </div>
+    <div id="score"><p>SCORE: <span id="text-score">0</span></p></div>
+    <div id="customer1"></div>
+    <div id="customer2"></div>
+    <div id="customer3"></div>
+    <div id="food1">
+      <div id="food_key1">PressA</div>
+      <div id="food_img1"></div>
+    </div>
+    <div id="food2">
+      <div id="food_key2">PressS</div>
+      <div id="food_img2"></div>
+    </div>
+    <div id="food3">
+      <div id="food_key3">PressD</div>
+      <div id="food_img3"></div>
+    </div>
+    <div id="food4">
+      <div id="food_key4">Press Shift</div>
+      <div id="food_img4"></div>
+    </div>
+    <div id="food5">
+      <div id="food_key5">PressZ</div>
+      <div id="food_img5"></div>
+    </div>
+    <div id="food6">
+      <div id="food_key6">PressX</div>
+      <div id="food_img6"></div>
+    </div>
+    <div id="food7">
+      <div id="food_key7">PressC</div>
+      <div id="food_img7"></div>
+    </div>
+    <div id="big_food"></div>
+    <div id="book_btn"><input type="button" value="START" id="btn-start"></div>
+  </div>
+ 
+  <br>
+  <script src='./js/player.js'></script>
+</body>
+</html>

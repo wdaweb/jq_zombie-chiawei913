@@ -1,0 +1,181 @@
+*{
+  font-family: 'Finger Paint' , cursive;
+}
+#game{
+  width: 1920px;
+  height: 800px;
+  background:url('../images/background2.png') no-repeat center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  cursor: url('../images/cursor_finger.png')50 50,auto;
+}
+#game img{
+  height: 150px;
+  position: absolute;
+}
+#food1{
+  position: absolute;
+  transform: translate(520px,490px);
+}
+#food_key1{
+  font-size: 20px;
+  text-align: center;
+}
+#food_img1{
+  width: 80px;
+  height: 60px;
+  background: url('../images/1.png') no-repeat center;
+  background-size: 70px 55px;
+}
+#food2{
+  position: absolute;
+  transform: translate(660px,490px);
+}
+#food_key2{
+  font-size: 20px;
+  text-align: center;
+}
+#food_img2{
+  width: 80px;
+  height: 60px;
+  background: url('../images/2.png') no-repeat center;
+  background-size: 70px 55px;
+}
+#food3{
+  position: absolute;
+  transform: translate(795px,490px);
+}
+#food_key3{
+  font-size: 20px;
+  text-align: center;
+}
+#food_img3{
+  width: 80px;
+  height: 60px;
+  background: url('../images/3.png') no-repeat center;
+  background-size: 70px 55px;
+}
+#food4{
+  position: absolute;
+  transform: translate(915px,492px);
+}
+#food_key4{
+  font-size: 18px;
+  text-align:center;
+}
+#food_img4{
+  width: 80px;
+  height: 60px;
+  background: url('../images/4.png') no-repeat center;
+  background-size: 70px 55px;
+  left:10px;
+  position: absolute;
+}
+#food5{
+  position: absolute;
+  transform: translate(1065px,490px);
+}
+#food_key5{
+  font-size: 20px;
+  text-align: center;
+}
+#food_img5{
+  width: 80px;
+  height: 60px;
+  background: url('../images/5.png') no-repeat center;
+  background-size: 70px 55px;
+}
+#food6{
+  position: absolute;
+  transform: translate(1200px,490px);
+}
+#food_key6{
+  font-size: 20px;
+  text-align: center;
+}
+#food_img6{
+  width: 80px;
+  height: 65px;
+  background: url('../images/6.png') no-repeat center;
+  background-size: 70px 55px;
+}
+#food7{
+  position: absolute;
+  transform: translate(1335px,490px);
+}
+#food_key7{
+  font-size: 20px;
+  text-align: center;
+}
+#food_img7{
+  width: 80px;
+  height: 65px;
+  background: url('../images/7.png') no-repeat center;
+  background-size: 70px 55px;
+}
+#big_food{
+  width: 120px;
+  height: 120px;
+  transform: translate(910px,560px);
+  position:absolute;
+}
+#customer1{
+  width: 170px;
+  height: 450px;
+  transform: translate(595px,25px);
+  position:absolute;
+}
+#customer2{
+  width: 170px;
+  height: 450px;
+  transform: translate(875px,25px);
+  position:absolute;
+}
+#customer3{
+  width: 170px;
+  height: 450px;
+  transform: translate(1145px,25px);
+  position:absolute;
+}
+.circle-progress-value {
+	stroke-width: 50px;
+	stroke:#DC143C
+}
+.circle-progress-circle {
+	stroke-width: 50px;
+	stroke: #fff;
+}
+.circle-progress-text {
+	background:	#B22222;
+  font-size: 0%;
+}
+#clock{
+  width: 150px;
+  height: 150px;
+  background: url('../images/clock.png') no-repeat center;
+  background-size: 150px 150px;
+  transform: translate(430px,50px);
+  position: absolute;
+}
+#score{
+  font-size: 30px;
+  transform: translate(1300px,80px);
+  position: absolute;
+}
+#book_btn{
+  width: 180px;
+  height: 130px;
+  background: url('../images/book.png') no-repeat center;
+  background-size: 180px 130px;
+  transform: translate(1280px,580px);
+  position: absolute;
+}
+#btn-start{
+  transform: translate(50px,50px);
+  font-size: 20px;
+  border: 0;
+  background: 0;
+  position: absolute;
+}
